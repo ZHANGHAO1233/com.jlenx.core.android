@@ -8,7 +8,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.jlenx.core.androi.dui.R;
 import com.jlenx.core.android.rx.RxManager;
 import com.jlenx.core.android.ui.utils.ToastUtil;
 import com.jlenx.core.android.ui.widget.LoadingDialog;

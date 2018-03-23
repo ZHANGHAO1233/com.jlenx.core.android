@@ -10,7 +10,6 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Window;
 
-import com.jlenx.core.androi.dui.R;
 import com.jlenx.core.android.rx.RxManager;
 import com.jlenx.core.android.ui.manager.AppManager;
 import com.jlenx.core.android.ui.theme.ChangeModeController;

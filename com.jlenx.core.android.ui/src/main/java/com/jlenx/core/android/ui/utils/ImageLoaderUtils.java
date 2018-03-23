@@ -5,7 +5,7 @@ import android.widget.ImageView;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.DecodeFormat;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
-import com.jlenx.core.androi.dui.R;
+import com.jlenx.core.android.ui.R;
 
 import java.io.File;
 

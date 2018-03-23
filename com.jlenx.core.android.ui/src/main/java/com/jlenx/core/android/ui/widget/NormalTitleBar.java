@@ -7,7 +7,7 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.jlenx.core.androi.dui.R;
+import com.jlenx.core.android.ui.R;
 import com.jlenx.core.android.ui.utils.DisplayUtil;
 
 

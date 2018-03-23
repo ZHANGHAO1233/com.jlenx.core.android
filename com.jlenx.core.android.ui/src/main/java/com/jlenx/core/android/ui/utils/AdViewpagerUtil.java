@@ -9,7 +9,8 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
-import com.jlenx.core.androi.dui.R;
+import com.jlenx.core.android.ui.R;
+
 
 
 

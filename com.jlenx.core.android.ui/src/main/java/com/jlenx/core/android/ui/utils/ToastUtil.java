@@ -8,9 +8,8 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
-
-import com.jlenx.core.androi.dui.R;
 import com.jlenx.core.android.ui.BaseApplication;
+import com.jlenx.core.android.ui.R;
 
 
 /**

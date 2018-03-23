@@ -20,7 +20,6 @@ import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.bumptech.glide.load.resource.drawable.GlideDrawable;
 import com.bumptech.glide.request.RequestListener;
 import com.bumptech.glide.request.target.Target;
-import com.jlenx.core.androi.dui.R;
 import com.jlenx.core.android.ui.widget.ViewPagerFixed;
 
 import java.util.ArrayList;

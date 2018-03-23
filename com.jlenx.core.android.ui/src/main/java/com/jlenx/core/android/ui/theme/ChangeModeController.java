@@ -18,7 +18,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.jlenx.core.androi.dui.R;
+
+import com.jlenx.core.android.ui.R;
 
 import java.lang.reflect.Field;
 import java.util.ArrayList;

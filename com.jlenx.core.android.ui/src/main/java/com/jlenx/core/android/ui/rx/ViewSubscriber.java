@@ -3,9 +3,9 @@ package com.jlenx.core.android.ui.rx;
 import android.app.Activity;
 import android.content.Context;
 
-import com.jlenx.core.androi.dui.R;
 import com.jlenx.core.android.rx.ServerException;
 import com.jlenx.core.android.ui.BaseApplication;
+import com.jlenx.core.android.ui.R;
 import com.jlenx.core.android.ui.widget.LoadingDialog;
 import com.jlenx.core.android.utils.NetWorkUtils;
 

@@ -6,7 +6,7 @@ import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.jlenx.core.androi.dui.R;
+import com.jlenx.core.android.ui.R;
 
 /**
  * description:弹窗浮动加载进度条
