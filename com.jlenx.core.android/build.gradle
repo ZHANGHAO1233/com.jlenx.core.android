@@ -26,10 +26,10 @@ android {
 
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
-    provided 'com.android.support:appcompat-v7:25.4.0'
-    compile 'io.reactivex:rxjava:1.0.1'
-    compile 'io.reactivex:rxandroid:1.0.1'
-    compile 'com.google.code.gson:gson:2.7'
-    compile 'com.orhanobut:logger:1.13'
+    compileOnly 'com.android.support:appcompat-v7:25.4.0'
+    compileOnly 'io.reactivex:rxjava:1.1.0'
+    compileOnly 'io.reactivex:rxandroid:1.1.0'
+    compileOnly 'com.google.code.gson:gson:2.8.0'
+    compileOnly 'com.orhanobut:logger:1.13'
     implementation files('libs/commons-codec-1.6.jar')
 }
