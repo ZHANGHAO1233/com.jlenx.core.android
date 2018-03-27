@@ -1,0 +1,55 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 25
+
+
+
+    defaultConfig {
+        minSdkVersion 19
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.android.support:recyclerview-v7:25.3.1'
+    compile 'com.android.support:design:25.3.1'
+    compile 'com.android.support:multidex:1.0.3'
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    compile 'com.commit451:PhotoView:1.2.4'
+    //需在app的build.gradle添加如下依赖，否则无法生成_Binding文件,导致注解无效
+    //annotationProcessor 'com.jakewharton:butterknife-compiler:8.5.1'
+    compile 'com.jakewharton:butterknife:8.5.1'
+    compile 'com.jakewharton.rxbinding:rxbinding:0.4.0'
+    compile ('com.jakewharton.rxbinding:rxbinding-support-v4:0.4.0'){
+        exclude group: 'com.android.support'
+    }
+    compile ('com.jakewharton.rxbinding:rxbinding-appcompat-v7:0.4.0'){
+        exclude group: 'com.android.support'
+    }
+    compile ('com.jakewharton.rxbinding:rxbinding-design:0.4.0'){
+        exclude group: 'com.android.support'
+    }
+    compile ('com.jakewharton.rxbinding:rxbinding-recyclerview-v7:0.4.0'){
+        exclude group: 'com.android.support'
+    }
+    compile ('com.jakewharton.rxbinding:rxbinding-leanback-v17:0.4.0'){
+        exclude group: 'com.android.support'
+    }
+    compile project(':com.jlenx.core.android')
+}

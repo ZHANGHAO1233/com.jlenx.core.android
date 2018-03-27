@@ -1,1 +1,1 @@
-include ':app', ':com.jlenx.core.android'
+include ':app', ':com.jlenx.core.android', ':com.jlenx.core.android.ui'

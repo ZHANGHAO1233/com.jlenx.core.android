@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">HelloLenx</string>
+    <string name="app_name">LenxTest</string>
+    <string name="title_activity_content">ContentActivity</string>
 </resources>
